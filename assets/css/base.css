@@ -1,0 +1,64 @@
+:root {
+    --text-color: #2f2e2c;
+    --header-color: #f8de7e;
+    --background-color: #f8de7e30;
+    --border-color: #cecece;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: "Bitter", Helvetica, sans-serif;
+    /* 1rem = 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+    position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: #8ab9f1;
+}
+/* width */
+
+/* Responsive */
+/* .grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(var(--column-unit) * 2);
+}
+
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(var(--column-unit) * 10);
+} */
