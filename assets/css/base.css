@@ -1,8 +1,11 @@
 :root {
     --text-color: #2f2e2c;
     --header-color: #f8de7e;
-    --background-color: #f8de7e30;
-    --border-color: #cecece;
+    --background-color: rgb(255, 255, 245);
+    --border-color: #2f2e2c;
+    --shadow-color: #bcbcbc5a;
+    --primary-blue: #679bf1;
+    --primary-yellow: #ffc40a;
 }
 
 * {
@@ -34,6 +37,11 @@ body {
 ::-webkit-scrollbar-thumb {
     border-radius: 50px;
     background-color: #8ab9f1;
+}
+
+.width {
+    width: 100%;
+    max-width: 1200px;
 }
 /* width */
 

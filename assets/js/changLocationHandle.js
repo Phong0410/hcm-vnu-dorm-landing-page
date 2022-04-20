@@ -1,11 +1,11 @@
 
-export default function changeLocationHandle () {
+export default function changeLocationHandle() {
 
-    const mainLocationElements = document.querySelectorAll('.main__location-content')
-    const locationA = document.querySelector('.main__location-content#location-A')
-    const locationB = document.querySelector('.main__location-content#location-B')
-    const locationHeadingA = document.querySelector('.main__location-heading#heading-A')
-    const locationHeadingB = document.querySelector('.main__location-heading#heading-B')
+    const mainLocationElements = document.querySelectorAll('.location__content')
+    const locationA = document.querySelector('.location__content#location-A')
+    const locationB = document.querySelector('.location__content#location-B')
+    const locationHeadingA = document.querySelector('.location__heading#heading-A')
+    const locationHeadingB = document.querySelector('.location__heading#heading-B')
 
     mainLocationElements.forEach(mainLocationElement => {
         mainLocationElement.addEventListener('wheel', handleWheel)
@@ -35,7 +35,7 @@ export default function changeLocationHandle () {
         locationHeadingB.classList.remove('active')
         locationHeadingA.classList.add('active')
 
-        locationHeadingB.style.top = '560px'
+        locationHeadingB.style.top = '500px'
 
     }
 
