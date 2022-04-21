@@ -116,7 +116,7 @@
 
     .front-page__slider-section#img-1 h2 {
         top: 40px;
-        right: 40px;
+        left: 40px;
         max-width: 300px;
     }
 
